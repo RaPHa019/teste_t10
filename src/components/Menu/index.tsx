@@ -7,7 +7,7 @@ const Menu: React.FC = () => {
     <CustomMenu >
         <Container>
             <div>
-                <img src={logo} />
+                <img src={logo} alt='logo' />
             </div>
             <List>
                 <a href='#home'>

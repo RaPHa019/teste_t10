@@ -27,7 +27,7 @@ const Home: React.FC = () => {
                             <button>Saiba mais</button>
                         </S.HomeText>                        
                         <div>
-                            <img src={homeImg} />
+                            <img src={homeImg} alt='img' />
                         </div>
                     </S.SectionHomeContent>                    
                 </S.Section>
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
                     <Titulo tittle='SOBRE NÓS' />
                     <S.SectionAboutContent>
                         <div>
-                            <img src={aboutImg} id='aboutImg' />                            
+                            <img src={aboutImg} id='aboutImg' alt='img' />                            
                         </div>
                         <div id='divTextAbout'>
                             <h1>Qual o seu próximo projeto?</h1>
@@ -43,13 +43,13 @@ const Home: React.FC = () => {
                             <button>Download CV</button>
                         </div>
                         
-                        <img src={backgroundImg} id='backgroundImg' />
+                        <img src={backgroundImg} id='backgroundImg' alt='img' />
                     </S.SectionAboutContent>
                 </S.Section>
                 <S.Section id='servicos'>
                     <Titulo tittle='SERVIÇOS' subTittle='Proporcionamos uma melhor experiência' />
                     <S.SectionServicesContent>
-                        <img src={backgroundImg} id='backgroundServices' />
+                        <img src={backgroundImg} id='backgroundServices' alt='img' />
                         <div id='adobe'>
                             <div id='adobeContent'>
                                 <h1>85%</h1>
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
                         
                         <div id='design' >
                             <div id='arco'>
-                                <img src={pageImg} />
+                                <img src={pageImg} alt='img' />
                             </div>                            
                             <h1>Design</h1>
                             <div id='lineDesing'> <div></div> <div></div> <div></div> </div>
@@ -75,28 +75,28 @@ const Home: React.FC = () => {
                     <Titulo tittle='PORTFOLIO' subTittle='Meus Trabalhos' />
                     <S.SectionPortfolioContent>
                         <div>                            
-                            <img src={portfolioImg1} />
+                            <img src={portfolioImg1} alt='img' />
                             <div className='hoverDiv' >
                                 <h1>Fresh</h1>
                                 <AiOutlinePlusCircle size={40} color='#fff' />
                             </div>
                         </div>
                         <div>
-                            <img src={portfolioImg2} />
+                            <img src={portfolioImg2} alt='img' />
                             <div className='hoverDiv' >
                                 <h1>Phone Mockup</h1>
                                 <AiOutlinePlusCircle size={40} color='#fff' />
                             </div>
                         </div>
                         <div>
-                            <img src={portfolioImg3} />
+                            <img src={portfolioImg3} alt='img' />
                             <div className='hoverDiv' >
                                 <h1>Web Design</h1>
                                 <AiOutlinePlusCircle size={40} color='#fff' />
                             </div>
                         </div>
                         <div>
-                            <img src={portfolioImg4} />
+                            <img src={portfolioImg4} alt='img' />
                             <div className='hoverDiv' >
                                 <h1>UI Design</h1>
                                 <AiOutlinePlusCircle size={40} color='#fff' />
@@ -117,7 +117,7 @@ const Home: React.FC = () => {
                         <button>Enviar</button>
                     </S.ContactForm>
                     <div id='background'>
-                        <img src={backgroundImg} />
+                        <img src={backgroundImg} alt='img' />
                     </div>
                     
                 </S.Section>

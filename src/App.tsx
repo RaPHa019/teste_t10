@@ -1,5 +1,4 @@
 import React from 'react';
-import Global from "./global";
 //import logo from './logo.svg';
 import './App.css';
 

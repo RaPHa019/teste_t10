@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 //import logo from '../../assets/img/ART_T10Bank_Negativo.png'
 
 export const CustomMenu = styled.div`
